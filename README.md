@@ -7,7 +7,7 @@ Projeto teste desenvolvido para avaliação de habilidades em React.
 Primeiro passo é clonar o projeto com o seguinte comando(Terminal):
 
 ```
-git clone https://github.com/cleversonmv/cinq_front_end.git
+git clone https://github.com/cleversonmv/goEpik_front_end.git
 ```
 OU baixando diretamente pelo botão verde escrito "Download" no canto superior direito dessa janela.
 
