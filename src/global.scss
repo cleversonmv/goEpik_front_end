@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+#modal_root{
+  position: fixed;
+  z-index: 10;
+}
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: url('./assets/space-tile.png') fixed;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+
+}
+
+body, input, button {
+  font-family: Roboto, sans-serif;
+}
