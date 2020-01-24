@@ -98,14 +98,14 @@ const Details = withRouter(({ history, location }) => {
             <div className='titleProfile'>Vehicle(s)</div>
             {vehiclesName.map(v => <Tag color='#f50'>{v}</Tag>)}
           </div>}
-          <div className='specie'>
+          {speciesName.length > 0 &&<div className='specie'>
             <div className='titleProfile'>Specie(s)</div>
             {speciesName.map(v => <Tag color='#33cc33'>{v}</Tag>)}
-          </div>
-          <div className='specieLanguage'>
+          </div>}
+          {speciesLanguage.length > 0 &&<div className='specieLanguage'>
             <div className='titleProfile'>Language(s)</div>
             {speciesLanguage.map(v => <Tag color='#108ee9'>{v}</Tag>)}
-          </div>
+          </div>}
         </div>
       </div>
     </Modal>
